@@ -103,8 +103,8 @@ class MainApp:
         if option == "1":
             self.view = True
             self.view_dictionary()
-        if option == "4":
-            os.system('clear')
+        if option == "3":
+            os.system('cls')
             print(f"{self.red}{self.bold}WARNING!{self.default}\n"
                   f"{self.red}You chose to reload the dictionary. Doing this will take a few minutes and closing the "
                   "program\nduring this process will cause the dictionary to be incomplete. This is only recommended "
@@ -115,8 +115,8 @@ class MainApp:
                 self.create_df()
             else:
                 self.menu()
-        elif option == "5":
-            pass
+        elif option == "4":
+            quit()
 
     def view_dictionary(self):
         """This function prints dictionary pages
@@ -143,6 +143,7 @@ class MainApp:
 
             print(f"\nUse the {self.green}<arrow keys>{self.default} to go to the next or previous page.")
             print(f"Press {self.green}<P>{self.default} to jump to a specific page.")
+            print(f"Press {self.green}<S>{self.default} to search for a specific word.")
             print(f"Press {self.green}<Q>{self.default} to go back to the menu.")
 
             while True:
