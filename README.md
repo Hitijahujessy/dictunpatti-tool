@@ -16,9 +16,10 @@ Link to Unpatti's dictionary: https://dict.unpatti.ac.id/
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
+  - [Menu](#menu)
+  - [Dictionary](#dictionary)
+  - [Reload](#reload)
+- [Planned features](#planned features)
 ## Features
 - Save the dictionary in a .csv file
 - Search function
