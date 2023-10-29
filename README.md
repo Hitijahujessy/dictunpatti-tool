@@ -19,7 +19,7 @@ Link to Unpatti's dictionary: https://dict.unpatti.ac.id/
   - [Menu](#menu)
   - [Dictionary](#dictionary)
   - [Reload](#reload)
-- [Planned features](#planned features)
+- [Planned features](#plannedfeatures)
 ## Features
 - Save the dictionary in a .csv file
 - Search function
